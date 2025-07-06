@@ -2,23 +2,23 @@
 |                    Number Guessing Game V1.0                      |
 +===================================================================+
 |  Developed, Maintained and Updated by "Rumaan Zameer" @ RTG labs. |
-|  Contact(s) at end of document.				    |
+|  Contact(s) at end of document.				                               |
 +===================================================================+
-| Manual							    |
-| 1. Basic View							    |
-| 2. How to change Settings					    |
-| 3. Playing the NGG Game					    |
-| 4. Message to the player					    |
-| 5. Updates (For Developers) 			    		    |
-| 6. Open Source Declaration.					    |
+| Manual							                                                     |
+| 1. Basic View							                                              |
+| 2. How to change Settings					                                    |
+| 3. Playing the NGG Game					                                      |
+| 4. Message to the player					                                     |
+| 5. Updates (For Developers) 			    		                             |
+| 6. Open Source Declaration.					                                  |
 | ----------------------------------------------------------------- |
 | 1.Basic View                                                      |
 | 1.1 Message Box: Displays messages. Look for message before       |
-|		   proceeding...                                    |
+|		   proceeding...                                                 |
 | 1.2 Input Box: Enter Numbers Here!                                |
 | 1.3 Start Button: Click to begin the game. When game starts the   |
-|		    "Start" button changes to "Reset" button. "⚙️" |
-|                   changes to "Enter" button.			    |
+|		    "Start" button changes to "Reset" button. "⚙️"               |
+|                   changes to "Enter" button.			                   |
 | 1.4 Settings Button (⚙️): Click To change Settings.              |
 |								    |
 +===================================================================+
@@ -75,7 +75,3 @@
 | 	Be thoughtful of others. Do mail me your projects, ideas    |
 | modified distributions. 					    |
 +===================================================================+
-
- /====/====/====|====\====\====\
-| Email : rtgtech.ai@gmail.com  |
- \====\====\====|====/====/====/
