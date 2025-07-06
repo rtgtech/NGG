@@ -2,7 +2,6 @@
 |                    Number Guessing Game V1.0                      |
 +===================================================================+
 |  Developed, Maintained and Updated by "Rumaan Zameer" @ RTG labs. |
-|  Contact(s) at end of document.				    |
 +===================================================================+
 | Manual							    |
 | 1. Basic View							    |
@@ -75,7 +74,3 @@
 | 	Be thoughtful of others. Do mail me your projects, ideas    |
 | modified distributions. 					    |
 +===================================================================+
-
- /====/====/====|====\====\====\
-| Email : rtgtech.ai@gmail.com  |
- \====\====\====|====/====/====/
