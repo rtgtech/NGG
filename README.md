@@ -1,19 +1,4 @@
 # NGG
 NGG - a simple web based number guessing game.
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text | 
- 
- ```
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-``` 
-I need to highlight these ==very important words== .
 
----
- 
- > blockquote
+- Default: No of tries = 10; Range = [1, 100];
