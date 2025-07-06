@@ -4,7 +4,8 @@ NGG - a simple web based number guessing game.
 | ----------- | ----------- |
 | Header | Title |
 | Paragraph | Text | 
- 	```
+ 
+ ```
 {
   "firstName": "John",
   "lastName": "Smith",
