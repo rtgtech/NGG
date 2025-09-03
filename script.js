@@ -1,3 +1,4 @@
+//System values
 let upper_limit = 100
 let lower_limit = 1
 let Tries = 10
@@ -6,6 +7,7 @@ let randomNum
 let input_val
 let loose = true
 
+//All components
 const btn_1 = document.getElementById(`btn-1`)
 const btn_2 = document.getElementById(`btn-2`)
 const msg_box = document.getElementById(`message-box`)
@@ -14,6 +16,7 @@ const up_lim = document.getElementById(`up-lim-in`)
 const low_lim = document.getElementById(`low-lim-in`)
 const _tries = document.getElementById(`tries-in`)
 
+//Start playing
 function start() {
     document.getElementById(`up-lim`).textContent = `Upper Limit : ${upper_limit}`
     document.getElementById(`low-lim`).textContent = `Lower Limit : ${lower_limit}`
@@ -27,6 +30,7 @@ function start() {
     randomNum = Math.round(Math.random() * (upper_limit - lower_limit)) + lower_limit
 }
 
+//Validate and Notify
 function checkIn() {
     if (t < Tries) {
         input_val = Number(input_box.value)
@@ -52,6 +56,7 @@ function checkIn() {
     }
 }
 
+//Reset
 function reset() {
     msg_box.value = `Click Start`
     btn_1.textContent = `Start`
@@ -85,4 +90,5 @@ function resetSetting() {
     upper_limit = 100
     lower_limit = 1
     Tries = 10
+
 }
