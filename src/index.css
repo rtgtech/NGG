@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #FF4D94;
+  --color-background-light: #F0F7FF;
+  --color-background-dark: #0F172A;
+  --color-card-light: #FFFFFF;
+  --color-card-dark: #1E293B;
+  --color-accent-yellow: #FFD93D;
+  --color-accent-green: #6BCB77;
+  --color-accent-blue: #4D96FF;
+  --font-display: "Fredoka", sans-serif;
+  --font-body: "Quicksand", sans-serif;
+  --radius: 1.5rem;
+  --radius-xl: 2.5rem;
+}
+
+@layer base {
+  body {
+    @apply font-body bg-background-light dark:bg-background-dark;
+    background-image: radial-gradient(circle at 10% 20%, rgba(77, 150, 255, 0.1) 0%, transparent 20%),
+                      radial-gradient(circle at 90% 80%, rgba(255, 77, 148, 0.1) 0%, transparent 20%);
+  }
+}
+
+.display-font {
+  font-family: 'Fredoka', sans-serif;
+}
+
+.btn-bounce:active {
+  transform: translateY(4px);
+  box-shadow: 0 0px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Hide number input spinners on Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Style number input spinners on Chrome/Safari */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  opacity: 1;
+  height: 40px;
+  cursor: pointer;
+}
+
+/* Material Symbols */
+.material-symbols-rounded {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
